@@ -1,0 +1,77 @@
+Analysis of Variance Table
+
+Response: RBD$YPP
+          Df  Sum Sq Mean Sq F value    Pr(>F)    
+RBD$REP    2   2.364  1.1820  1.7908    0.1759    
+RBD$GEN   29 229.547  7.9154 11.9930 1.909e-15 ***
+Residuals 58  38.280  0.6600                      
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+[1] "DNMRT Result"
+  MSerror Df     Mean       CV
+     0.66 58 5.324222 15.25864
+     RBD$YPP groups
+G4  8.100000      a
+G24 8.066667      a
+G26 7.896667      a
+G23 7.740000     ab
+G27 7.560000     ab
+G16 7.400000    abc
+G18 6.980000   abcd
+G17 6.720000  abcde
+G30 6.340000  bcdef
+G28 6.020000  cdefg
+G7  5.956667  cdefg
+G9  5.606667  defgh
+G12 5.393333  efghi
+G14 5.320000  efghi
+G22 5.030000  fghij
+G20 5.026667  fghij
+G19 4.556667  ghijk
+G2  4.530000  ghijk
+G5  4.383333   hijk
+G25 4.266667  hijkl
+G3  4.226667  hijkl
+G29 4.213333  hijkl
+G13 4.180000  hijkl
+G8  4.030000  hijkl
+G21 4.006667   ijkl
+G11 3.680000    jkl
+G1  3.380000     kl
+G6  3.206667     kl
+G15 3.163333     kl
+G10 2.746667      l
+[1] "LSD Result"
+  MSerror Df     Mean       CV  t.value      LSD
+     0.66 58 5.324222 15.25864 2.001717 1.327789
+     RBD$YPP groups
+G4  8.100000      a
+G24 8.066667      a
+G26 7.896667     ab
+G23 7.740000     ab
+G27 7.560000    abc
+G16 7.400000    abc
+G18 6.980000   abcd
+G17 6.720000   bcde
+G30 6.340000   cdef
+G28 6.020000    def
+G7  5.956667    def
+G9  5.606667    efg
+G12 5.393333   efgh
+G14 5.320000   fghi
+G22 5.030000   fghi
+G20 5.026667   fghi
+G19 4.556667   ghij
+G2  4.530000  ghijk
+G5  4.383333 ghijkl
+G25 4.266667  hijkl
+G3  4.226667  hijkl
+G29 4.213333  hijkl
+G13 4.180000  hijkl
+G8  4.030000  ijklm
+G21 4.006667  ijklm
+G11 3.680000   jklm
+G1  3.380000   jklm
+G6  3.206667    klm
+G15 3.163333     lm
+G10 2.746667      m
